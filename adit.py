@@ -1,4 +1,6 @@
-x = 10
-y = 11
+for angka in range (2, 11):
+    prima = True
 
-print(x+y)
+    for pembagian in range(2, angka):
+        prima = False
+        break
